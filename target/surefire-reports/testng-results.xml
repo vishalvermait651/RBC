@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RBCBanking" duration-ms="54350" started-at="2021-12-30T02:09:25Z" finished-at="2021-12-30T02:10:20Z">
+    <groups>
+    </groups>
+    <test name="Banking App" duration-ms="54350" started-at="2021-12-30T02:09:25Z" finished-at="2021-12-30T02:10:20Z">
+      <class name="Com.RBC.TestCases.TC_AddCustomer_003">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Com.RBC.TestCases.TC_AddCustomer_003@3ec300f1]" name="setUp" is-config="true" duration-ms="1503" started-at="2021-12-30T02:09:36Z" finished-at="2021-12-30T02:09:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewCustomerTest()[pri:0, instance:Com.RBC.TestCases.TC_AddCustomer_003@3ec300f1]" name="addNewCustomerTest" duration-ms="42586" started-at="2021-12-30T02:09:37Z" finished-at="2021-12-30T02:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.RBC.TestCases.TC_AddCustomer_003@3ec300f1]" name="tearDown" is-config="true" duration-ms="97" started-at="2021-12-30T02:10:20Z" finished-at="2021-12-30T02:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.RBC.TestCases.TC_AddCustomer_003 -->
+      <class name="Com.RBC.TestCases.TC_LoginTestDDT_002">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Com.RBC.TestCases.TC_LoginTestDDT_002@105fece7]" name="setUp" is-config="true" duration-ms="9725" started-at="2021-12-30T02:09:25Z" finished-at="2021-12-30T02:09:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:Com.RBC.TestCases.TC_LoginTestDDT_002@105fece7]" name="loginDDT" duration-ms="0" started-at="2021-12-30T02:09:35Z" data-provider="LoginData" finished-at="2021-12-30T02:09:35Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void Com.RBC.TestCases.TC_LoginTestDDT_002.loginDDT(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : LoginData]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void Com.RBC.TestCases.TC_LoginTestDDT_002.loginDDT(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : LoginData
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:513)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:691)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.RBC.TestCases.TC_LoginTestDDT_002@105fece7]" name="tearDown" is-config="true" duration-ms="408" started-at="2021-12-30T02:09:35Z" finished-at="2021-12-30T02:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.RBC.TestCases.TC_LoginTestDDT_002 -->
+    </test> <!-- Banking App -->
+  </suite> <!-- RBCBanking -->
+</testng-results>

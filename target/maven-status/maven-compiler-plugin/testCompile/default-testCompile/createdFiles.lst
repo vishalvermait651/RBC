@@ -1,0 +1,7 @@
+Com\RBC\pageObject\AddCustomer.class
+Com\RBC\pageObject\LoginPage.class
+Com\RBC\utilities\XLUtils.class
+Com\RBC\TestCases\TC_LoginTest_001.class
+Com\RBC\TestCases\BaseClass.class
+Com\RBC\TestCases\TC_AddCustomer_003.class
+Com\RBC\utilities\ReadConfig.class

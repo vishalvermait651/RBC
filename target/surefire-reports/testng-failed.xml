@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [RBCBanking]">
+  <test thread-count="5" verbose="0" name="Banking App(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Com.RBC.TestCases.TC_LoginTestDDT_002">
+        <methods>
+          <include name="loginDDT"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Com.RBC.TestCases.TC_LoginTestDDT_002 -->
+    </classes>
+  </test> <!-- Banking App(failed) -->
+</suite> <!-- Failed suite [RBCBanking] -->
