@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
+
+https://www.softwaretestinghelp.com/integration-of-jenkins-with-selenium-webdriver/
+https://www.edureka.co/blog/interview-questions/sql-interview-questions
+https://www.browserstack.com/guide/selenium-with-java-for-automated-test
